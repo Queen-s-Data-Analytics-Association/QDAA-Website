@@ -2,7 +2,7 @@ export default function Navbar() {
     return <nav className="nav">
         <a href = "/" className="site-title">Name</a>
         <ul>
-            <li>
+            <li className="active">
                 <a href="/team">Team</a>
             </li>
             <li>
