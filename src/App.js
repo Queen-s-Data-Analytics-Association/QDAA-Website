@@ -4,31 +4,21 @@ import Team from "./pages/Team";
 import Projects from "./pages/Projects";
 import Events from "./pages/Events";
 import Sponsors from "./pages/Sponsors";
-
+import { Route, Routes } from "react-router-dom"
 
 function App() {
-  let component
-  switch (window.location.pathname) {
-    case "/":
-      component = <Home />
-      break
-    case "/team":
-      component = <Team />
-      break
-    case "/projects":
-      component = <Projects />
-      break
-    case "/events":
-      component = <Events />
-      break
-    case "/sponsors":
-      component = <Sponsors />
-      break
-  }
   return (
   <>
     <Navbar />
-    {component}
+    <div className="container">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/sponsors" element={<Sponsors />} />
+      </Routes>
+    </div>
   </>
   )
 }
