@@ -3,6 +3,11 @@
 }
 
 body {
+    background-image: url('../public/test.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     margin: 0;
 }
 
@@ -12,8 +17,8 @@ body {
 }
 
 .nav {
-    background-color: #333;
-    color: white;
+    background-color: transparent;
+    color: black;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
