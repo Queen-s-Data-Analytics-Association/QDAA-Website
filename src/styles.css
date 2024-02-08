@@ -3,11 +3,6 @@
 }
 
 body {
-    background-image: url('../public/test.avif');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
     margin: 0;
 }
 
@@ -53,4 +48,21 @@ body {
 
 .nav li:hover {
     background-color: #777
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../public/test.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.title {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }

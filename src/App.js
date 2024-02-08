@@ -5,14 +5,11 @@ import Projects from "./pages/Projects";
 import Events from "./pages/Events";
 import Sponsors from "./pages/Sponsors";
 import { Route, Routes } from "react-router-dom"
-import {Helmet} from 'react-helmet';
 
 function App() {
   return (
   <>
     <Navbar />
-    <Helmet>
-      <style>{'body { background-color: #37517e; }'}</style>
       <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
@@ -23,7 +20,6 @@ function App() {
           <Route path="/sponsors" element={<Sponsors />} />
         </Routes>
       </div>
-    </Helmet>
   </>
   )
 }
