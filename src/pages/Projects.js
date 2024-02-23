@@ -1,3 +1,9 @@
+import { FooterContainer } from './containers/footer'
+
 export default function Projects() {
-    return <h1>Projects</h1>
+    return (
+        <>
+          <FooterContainer />
+        </>
+    )
 }

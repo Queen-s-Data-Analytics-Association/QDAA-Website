@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import Events from "./pages/Events";
 import Sponsors from "./pages/Sponsors";
 import { Route, Routes } from "react-router-dom"
+import { FooterContainer } from './container/footer'
 
 function App() {
   return (
