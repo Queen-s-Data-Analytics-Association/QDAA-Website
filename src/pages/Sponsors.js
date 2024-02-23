@@ -1,3 +1,9 @@
+import { FooterContainer } from './containers/footer'
+
 export default function Sponsors() {
-    return <h1>Sponsors</h1>
+    return (
+        <>
+          <FooterContainer />
+        </>
+    )
 }
