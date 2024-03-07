@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -56,18 +57,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
 }
 
-.title {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    column-gap: 1.6rem;
-}
-
-.title::before, .title::after{
-    content: "";
-    height: 2px;
-    background-color: #000;
-    display: block;
-}
