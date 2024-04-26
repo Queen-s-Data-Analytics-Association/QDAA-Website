@@ -1,5 +1,4 @@
 export default function Team() {
-    let message = "text"
     return (
         <section className="section-white">
             <div className="container">
@@ -8,7 +7,6 @@ export default function Team() {
                         <h2 className="section-title">
                             QDAA Exec Team
                         </h2>
-                        <p className="section-subtitle">{message}</p>
                     </div>
                     <div className="col-sm-6 col-md-4">
                         <div className="team-item">
